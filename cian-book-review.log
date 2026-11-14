@@ -1,0 +1,4 @@
+T1 ask/1000MIA=200000n book-bal=66667n spent=66667n acquired=333n linear=66600n overpay=67n
+T4 book-len-after-cancel=4n
+T5 cap=50 evicted-amount=1000n refunded=1000n
+      Tests  2 passed (2)

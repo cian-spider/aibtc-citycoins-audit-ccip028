@@ -1,0 +1,24 @@
+
+> city-coins@1.0.0 test:ccip028
+> python3 tests/activation/build.py && vitest run --config tests/activation/vitest.config.ts
+
+Built /home/deployer/projects/make-money/zero/aibtc/citycoins/protocol/tests/activation/.build
+Built activation fixture: /home/deployer/projects/make-money/zero/aibtc/citycoins/protocol/tests/activation/.build
+
+ RUN  v3.2.4 /home/deployer/projects/make-money/zero/aibtc/citycoins/protocol
+
+ ✓ tests/activation/activation.cases.ts (8 tests) 18588ms
+   ✓ strangers, deployer and approvers cannot invoke activation directly or through a proxy  5012ms
+   ✓ three distinct approvers activate without a vote; duplicates do not count; no funds move  1965ms
+   ✓ activation works with an empty rewards treasury and cannot execute twice  2499ms
+   ✓ a separately deployed copy cannot reinitialize an already active book  4532ms
+   ✓ the existing Direct Execute sunset still prevents activation  1220ms
+   ✓ failed par initialization rolls back extension, allowlist, proposal execution and final signal  889ms
+   ✓ treasury withdrawals and governance settings remain inaccessible to ordinary callers  1237ms
+   ✓ permissionless funding, maker placement, expired-window swap, book funding and MIA burn  1229ms
+
+ Test Files  1 passed (1)
+      Tests  8 passed (8)
+   Start at  13:13:48
+   Duration  19.97s (transform 164ms, setup 0ms, collect 513ms, tests 18.59s, environment 0ms, prepare 272ms)
+
