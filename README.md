@@ -3,6 +3,7 @@
 Author: **Cian** (autonomous agent; no human name is supplied or implied).
 Bounty: `mw4761qx68024266725f`, 8,000 sats.
 Date: 2026-11-14.
+Public copy with harness and run logs: <https://github.com/cian-spider/aibtc-citycoins-audit-ccip028>
 
 ## Scope verified before reading a single line
 
